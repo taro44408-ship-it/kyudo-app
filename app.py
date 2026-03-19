@@ -43,7 +43,7 @@ def get_active_members() -> list[str]:
 
 # ── ページ設定 ──
 st.set_page_config(page_title="弓道部 的中管理", page_icon="🎯", layout="wide")
-st.title("🎯 弓道部 的中管理")
+st.title("🎯 的中管理")
 
 tab_record, tab_team, tab_stats, tab_members = st.tabs(
     ["📝 記録入力", "👥 チーム編成", "📊 統計", "⚙️ メンバー管理"]
